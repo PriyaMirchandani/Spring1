@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans spring-beans.xsd ">
+
+<!-- spring creates a bean object in bean start and end tag.
+Therefore it is called bean object.                --> 
+
+
+
+
+<bean id="festival" class="com.zensar.spring.FestivalGreeting" scope="singleton"/>
+<bean id="anniversaryfestival" class="com.zensar.spring.AnniversaryGreeting"/>
+</beans>
